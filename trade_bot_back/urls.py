@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test_metod/', include('test_app.urls')),
+    path('api/bot/', include('trade_bot.urls')),
 ]
